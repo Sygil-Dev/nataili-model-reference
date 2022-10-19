@@ -95,7 +95,7 @@
       "files": [
         {
           "path": "models/custom/yiffy.ckpt",
-		  "md5sum": "dbe25794e24af183565dc45e9ec99713"
+          "md5sum": "dbe25794e24af183565dc45e9ec99713"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -121,7 +121,7 @@
       "files": [
         {
           "path": "models/custom/Zack3D.ckpt",
-		  "md5sum": "aa944b1ecdaac60113027a0fdcda4f1b"
+          "md5sum": "aa944b1ecdaac60113027a0fdcda4f1b"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
