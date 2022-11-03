@@ -623,9 +623,10 @@
   "F111": {
     "name": "F111",
     "type": "ckpt",
-    "description": "Nude solo women",
-    "version": "111",
+    "description": "For creating images of nude solo women",
+    "version": "3",
     "style": "dreambooth",
+    "homepage": "https://ai.zeipher.com/",
     "nsfw": true,
     "download_all": true,
     "requires": [
@@ -634,7 +635,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/waifu-diffusion.ckpt",
+          "path": "models/custom/f111.ckpt",
           "md5sum": "ed119c704e6a33cb5362e5f0e0455ad0"
         },
         {
@@ -644,7 +645,7 @@
     "download": [
       {
         "file_name": "f111.ckpt",
-        "file_path", "models/custom",
+        "file_path": "models/custom",
         "file_url": "https://huggingface.co/Reachout/F111/blob/main/f111.ckpt"
       }
     ]
