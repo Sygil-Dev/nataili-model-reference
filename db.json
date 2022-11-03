@@ -621,10 +621,10 @@
     "available": false
   },
   "F111": {
-    "name": "F111",
+    "name": "Zeipher Female Model",
     "type": "ckpt",
     "description": "For creating images of nude solo women",
-    "version": "3",
+    "version": "111",
     "style": "dreambooth",
     "homepage": "https://ai.zeipher.com/",
     "nsfw": true,
