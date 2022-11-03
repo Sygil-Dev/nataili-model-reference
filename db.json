@@ -620,6 +620,37 @@
     },
     "available": false
   },
+  "F111": {
+    "name": "F111",
+    "type": "ckpt",
+    "description": "Nude solo women",
+    "version": "111",
+    "style": "dreambooth",
+    "nsfw": true,
+    "download_all": true,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/waifu-diffusion.ckpt",
+          "md5sum": "ed119c704e6a33cb5362e5f0e0455ad0"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+    "download": [
+      {
+        "file_name": "f111.ckpt",
+        "file_path", "models/custom",
+        "file_url": "https://huggingface.co/Reachout/F111/blob/main/f111.ckpt"
+      }
+    ]
+   },
+   "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
