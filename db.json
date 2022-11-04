@@ -644,9 +644,9 @@
       ],
     "download": [
       {
-        "file_name": "f111.ckpt",
+        "file_name": "zeipher_female.ckpt",
         "file_path": "models/custom",
-        "file_url": "https://huggingface.co/Reachout/F111/blob/main/zeipher_female.ckpt"
+        "file_url": "https://huggingface.co/Reachout/F111/blob/main/f111.ckpt"
       }
     ]
    },
