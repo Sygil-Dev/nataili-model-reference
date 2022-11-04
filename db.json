@@ -208,7 +208,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/trinart.ckpt"
+          "path": "models/custom/trinart.ckpt",
+          "md5sum": "c90995db630d8415fbf51d6b72e71e15"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -636,7 +637,7 @@
       "files": [
         {
           "path": "models/custom/f111.ckpt",
-          "md5sum": "ed119c704e6a33cb5362e5f0e0455ad0"
+          "md5sum": "539b4cb7fde194b56fa76eee640e77c6"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -666,7 +667,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/SecretAI.ckpt"
+          "path": "models/custom/SecretAI.ckpt",
+          "md5sum": "38edcb1847a568c309816c7058a14e4e"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
