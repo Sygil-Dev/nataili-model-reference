@@ -625,7 +625,7 @@
     "type": "ckpt",
     "description": "Anime style trained on danbooru 2021 dataset ",
     "version": "1",
-    "style": "generalist",
+    "style": "anime",
     "nsfw": true,
     "download_all": false,
     "requires": [
