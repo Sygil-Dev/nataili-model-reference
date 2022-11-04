@@ -634,7 +634,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/modelx.ckpt"
+          "path": "models/custom/SecretAI.ckpt"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -642,9 +642,9 @@
       ],
       "download": [
         {
-          "file_name": "modelx.ckpt",
+          "file_name": "SecretAI.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/acheong08/secretAI/blob/main/stableckpt/animefull-final-pruned/model.ckpt"
+          "file_url": "https://huggingface.co/acheong08/secretAI/resolve/main/stableckpt/animefull-final-pruned/model.ckpt"
         }
       ]
     },
