@@ -646,7 +646,7 @@
       {
         "file_name": "f111.ckpt",
         "file_path": "models/custom",
-        "file_url": "https://huggingface.co/Reachout/F111/blob/main/f111.ckpt"
+        "file_url": "https://huggingface.co/Reachout/F111/resolve/main/f111.ckpt"
       }
     ]
    },
