@@ -2012,10 +2012,10 @@
     "name": "Dreamlike Diffusion",
     "type": "ckpt",
     "description": "Dreamlike Diffusion 1.0 is SD 1.5 fine tuned on high quality art, made by dreamlike.art",
-    "version": "1.6",
+    "version": "1.0",
     "style": "generalist",
     "trigger":["dreamlikeart"],
-    "homepage": "https://huggingface.co/SomaMythos/ChromaV5",
+    "homepage": "https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -2024,7 +2024,7 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/dreamlike-diffusion-1.0.ckpt",
+          "path": "models/custom/dreamlike-diffusion.ckpt",
           "md5sum": "5446a657cf71261b9df4e0a7b1f1a4a6"
         },
         {
@@ -2033,7 +2033,7 @@
       ],
       "download": [
         {
-          "file_name": "dreamlike-diffusion-1.0.ckpt",
+          "file_name": "dreamlike-diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/dreamlike-art/dreamlike-diffusion-1.0/resolve/main/dreamlike-diffusion-1.0.ckpt"
         }
