@@ -1969,7 +1969,7 @@
         {
           "file_name": "kurzgesagt-style-v1.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/questcoast/SD-Kurzgesagt-style-finetune/blob/main/kurzgesagt-style-v1.ckpt"
+          "file_url": "https://huggingface.co/questcoast/SD-Kurzgesagt-style-finetune/resolve/main/kurzgesagt-style-v1.ckpt"
         }
       ]
     },
