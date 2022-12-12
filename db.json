@@ -1959,7 +1959,7 @@
       "files": [
         {
           "path": "models/custom/kurzgesagtish.ckpt",
-          "md5sum": "d5feba6c60982ee4bc9e900473c890d4"
+          "md5sum": "f012a7cacd0727eb52978150aa09abbb"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
