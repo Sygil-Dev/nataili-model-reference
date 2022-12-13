@@ -2041,6 +2041,39 @@
     },
     "available": false
   },
+  "Analog Diffusion": {
+    "name": "Analog Diffusion",
+    "type": "ckpt",
+    "description": "A dreambooth model trained on a diverse set of analog photographs",
+    "version": "1.0",
+    "style": "generalist",
+    "trigger":["analog style"],
+    "homepage": "https://huggingface.co/wavymulder/Analog-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/analog-diffusion.ckpt",
+          "md5sum": "5446a657cf71261b9df4e0a7b1f1a4a6"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "analog-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/analog-diffusion-1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
