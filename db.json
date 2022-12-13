@@ -2058,7 +2058,7 @@
       "files": [
         {
           "path": "models/custom/analog-diffusion.ckpt",
-          "md5sum": "5446a657cf71261b9df4e0a7b1f1a4a6"
+          "md5sum": "73e73310bf9360e8098c1b82975c8dae"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -2069,6 +2069,39 @@
           "file_name": "analog-diffusion.ckpt",
           "file_path": "models/custom",
           "file_url": "https://huggingface.co/wavymulder/Analog-Diffusion/resolve/main/analog-diffusion-1.0.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
+  "Gigachad Diffusion": {
+    "name": "Gigachad Diffusion",
+    "type": "ckpt",
+    "description": "Another Dreambooth model. What a Chad!",
+    "version": "1.0",
+    "style": "chad",
+    "trigger":["gigachad"],
+    "homepage": "https://huggingface.co/wavymulder/Analog-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/gigachad-diffusion.ckpt",
+          "md5sum": "8c26355e970c214aa74b22a75f9fed4d"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "gigachad-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/SpiteAnon/gigachad-diffusion/resolve/main/gigachad_2000.ckpt"
         }
       ]
     },
