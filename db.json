@@ -2140,6 +2140,39 @@
     },
     "available": false
   },
+  "Funko Diffusion": {
+    "name": "Funko Diffusion",
+    "type": "ckpt",
+    "description": "Stable Diffusion fine tuned on Funko Pop, by PromptHero.",
+    "version": "1.0",
+    "style": "cartoon",
+    "trigger":["funko style"],
+    "homepage": "https://huggingface.co/prompthero/funko-diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/funko-diffusion.ckpt",
+          "md5sum": "d2a2a80a8f725d517422259ce16c38fb"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "funko-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/prompthero/funko-diffusion/resolve/main/funko.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
