@@ -2173,6 +2173,39 @@
     },
     "available": false
   },
+  "Double Exposure Diffusion": {
+    "name": "Double Exposure Diffusion",
+    "type": "ckpt",
+    "description": "The Double Exposure Diffusion model, trained specifically on images of people and a few animals",
+    "version": "2.0",
+    "style": "generalist",
+    "trigger":["dublex style, dublex"],
+    "homepage": "https://huggingface.co/joachimsallstrom/Double-Exposure-Diffusion",
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/dublex-diffusion.ckpt",
+          "md5sum": "fb7dbe346c6390cf2b2f774e3048d424"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "dublex-diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/joachimsallstrom/Double-Exposure-Diffusion/resolve/main/Double_Exposure_v2.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
