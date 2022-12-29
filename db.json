@@ -34,41 +34,6 @@
     },
     "available": false
   },
-  "stable_diffusion_2.0": {
-    "name": "stable_diffusion_2.0",
-    "baseline": "stable diffusion 2",
-    "type": "ckpt",
-    "description": "Generalist AI image generating model. The baseline for all finetuned models.",
-    "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_2.0/01_bigdowg.webp"
-    ],
-    "version": "2.0",
-    "style": "generalist",
-    "nsfw": false,
-    "download_all": true,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/ldm/stable-diffusion-v2/model_2_0.ckpt",
-          "md5sum": "48cb3980ec03a370b68bd0a9d8eefece"
-        },
-        {
-          "path": "configs/stable-diffusion/v2-inference-v.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "model_2_0.ckpt",
-          "file_path": "models/ldm/stable-diffusion-v2",
-          "file_url": "https://huggingface.co/stabilityai/stable-diffusion-2/resolve/main/768-v-ema.ckpt"
-        }
-      ]
-    },
-    "available": false
-  },
   "stable_diffusion": {
     "name": "stable_diffusion",
     "baseline": "stable diffusion 1",
@@ -99,49 +64,6 @@
           "file_name": "model_1_5.ckpt",
           "file_path": "models/ldm/stable-diffusion-v1",
           "file_url": "https://{username}:{password}@huggingface.co/runwayml/stable-diffusion-v1-5/resolve/main/v1-5-pruned-emaonly.ckpt",
-          "hf_auth": true
-        }
-      ]
-    },
-    "available": false
-  },
-  "stable_diffusion_1.4": {
-    "name": "stable_diffusion_1.4",
-    "baseline": "stable diffusion 1",
-    "type": "ckpt",
-    "description": "Generalist AI image generating model. The baseline for all finetuned models.",
-    "showcases": [
-      "https://raw.githubusercontent.com/Sygil-Dev/nataili-model-reference/main/showcase/stable_diffusion_1.4/01_bigdowg.webp"
-    ],
-    "version": "1.4",
-    "style": "generalist",
-    "nsfw": false,
-    "download_all": false,
-    "requires": [
-      "clip-vit-large-patch14"
-    ],
-    "config": {
-      "files": [
-        {
-          "path": "models/ldm/stable-diffusion-v1/model.ckpt",
-          "md5sum": "c01059060130b8242849d86e97212c84"
-        },
-        {
-          "path": "configs/stable-diffusion/v1-inference.yaml"
-        }
-      ],
-      "download": [
-        {
-          "file_name": "model.ckpt",
-          "file_path": "models/ldm/stable-diffusion-v1",
-          "file_url": "https://www.googleapis.com/storage/v1/b/aai-blog-files/o/sd-v1-4.ckpt?alt=media"
-        }
-      ],
-      "alt_download": [
-        {
-          "file_name": "model.ckpt",
-          "file_path": "models/ldm/stable-diffusion-v1",
-          "file_url": "https://{username}:{password}@huggingface.co/CompVis/stable-diffusion-v-1-4-original/resolve/main/sd-v1-4.ckpt",
           "hf_auth": true
         }
       ]
