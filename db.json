@@ -3541,6 +3541,38 @@
     },
     "available": false
   },
+  "PPP": {
+    "name": "PPP",
+    "baseline": "stable diffusion 1",
+    "type": "ckpt",
+    "description": "PPP is a realistic model merge, tested and tweaked for human females. Mostly based on NSFW models",
+    "version": "1.0",
+    "style": "boudoir photography",
+    "nsfw": true,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/PPP.ckpt",
+          "md5sum": "0e9012fab5382c7c3e9f3365e474835e"
+        },
+        {
+          "path": "configs/stable-diffusion/v1-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "PPP.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://civitai.com/api/download/models/1304"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
