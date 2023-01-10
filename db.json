@@ -3507,6 +3507,40 @@
     },
     "available": false
   },
+  "Sonic Diffusion": {
+    "name": "Sonic Diffusion",
+    "baseline": "stable diffusion 2",
+    "type": "ckpt",
+    "description": "SonicDiffusionV2.ckpt was trained on AnythingV3 for 200 epochs of 203 hand captioned Sonic images from various artists",
+    "version": "2",
+    "style": "Sonic The Hedgehog",
+    "homepage": "https://huggingface.co/Metal079/SonicDiffusionV2",
+    "trigger":["mobian"],
+    "nsfw": false,
+    "download_all": false,
+    "requires": [
+      "clip-vit-large-patch14"
+    ],
+    "config": {
+      "files": [
+        {
+          "path": "models/custom/Sonic_Diffusion.ckpt",
+          "md5sum": "ccef7ef01eb5c07ef49cfbab6579b37d"
+        },
+        {
+          "path": "configs/stable-diffusion/v2-inference.yaml"
+        }
+      ],
+      "download": [
+        {
+          "file_name": "Sonic_Diffusion.ckpt",
+          "file_path": "models/custom",
+          "file_url": "https://huggingface.co/Metal079/SonicDiffusionV2/resolve/main/SonicDiffusionV2_SD21.ckpt"
+        }
+      ]
+    },
+    "available": false
+  },
   "RealESRGAN_x4plus": {
     "name": "RealESRGAN_x4plus",
     "type": "realesrgan",
