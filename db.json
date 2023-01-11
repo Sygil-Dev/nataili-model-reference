@@ -1324,7 +1324,7 @@
     ],
     "version": "3",
     "style": "anime",
-    "homepage": "https://huggingface.co/Linaqruf/anything-v3.0",
+    "homepage": "https://huggingface.co/Linaqruf/anything-v3-better-vae",
     "nsfw": false,
     "download_all": false,
     "requires": [
@@ -1333,8 +1333,8 @@
     "config": {
       "files": [
         {
-          "path": "models/custom/Anything-Diffusion-v3.ckpt",
-          "md5sum": "0aa33de6b36c239ba579e73edf10a026"
+          "path": "models/custom/Anything-Diffusion.ckpt",
+          "md5sum": "d84fc4acb3b8e4ce44b71ebc776c5fdf"
         },
         {
           "path": "configs/stable-diffusion/v1-inference.yaml"
@@ -1342,9 +1342,9 @@
       ],
       "download": [
         {
-          "file_name": "Anything-Diffusion-v3.ckpt",
+          "file_name": "Anything-Diffusion.ckpt",
           "file_path": "models/custom",
-          "file_url": "https://huggingface.co/Linaqruf/anything-v3.0/resolve/main/Anything-V3.0-pruned.ckpt"
+          "file_url": "https://huggingface.co/Linaqruf/anything-v3-better-vae/resolve/main/any-v3-fp32-better-vae.ckpt"
         }
       ]
     },
